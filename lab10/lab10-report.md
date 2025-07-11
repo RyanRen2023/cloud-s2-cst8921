@@ -1,10 +1,10 @@
 # CST8921 – Cloud Industry Trends
 ## Lab 10 – Setting Up Azure Cognitive Search Index and Deploying Embedding & LLM Models
 
-**Student Name:** Ren  
-**Student ID:** [Your Student ID]  
-**Date:** July 9, 2025  
-**Course:** CST8921 - Cloud Industry Trends  
+- **Student Name:**  Xihai Ren
+- **Course:**        CST8921 010 - Cloud Industry Trends 
+- **Professor:**     Ragini Madaan
+- **Date:**          July 14, 2025  
 
 ---
 
@@ -88,25 +88,21 @@ Key:
    - Asked relevant and irrelevant questions
    - Verified LLM generated grounded responses or fallback when lacking context
 
+![Run Python](./images/04-RunPython.png)
+--
+![Test](./images/04-test.png)
+
 ---
 
 ## Implementation Results
 
-- **Search Service**: Created `ren-search-service-lab10`
-- **Index**: `azure-rag-demo-index` with fields `data`, `source`
+- **Search Service**: Created `ai-search-xr`
+- **Index**: `index-search` with fields `data`, `source`
 - **Embedding Model**: `text-embedding-ada-002` successfully deployed
 - **LLM Model**: `gpt-3.5-turbo-instruct` successfully deployed
 - **Script**: Parsed PDF into chunks, indexed to search, and enabled context-aware LLM responses
 
----
 
-## Testing Results
-
-| Question | Result |
-|----------|--------|
-| What are the main challenges in applying deep learning to big data analytics? | Correct contextual answer retrieved |
-| What are the benefits of using deep learning for big data? | Contextual benefits listed correctly |
-| How does weather affect agriculture? | Response: *"I don't have enough information to answer the question."* |
 
 ---
 
@@ -131,7 +127,3 @@ Key:
 This lab provided hands-on experience building a modern AI system using cloud-native tools. The Retrieval Augmented Generation approach allows for grounded, document-aware responses from LLMs. With Azure’s integrated tools and LangChain’s modular design, we successfully implemented an end-to-end solution that mimics enterprise-grade intelligent document Q&A systems.
 
 ---
-
-## Important Notes
-
-For grading, submit this report in the Assignments tab in Brightspace.

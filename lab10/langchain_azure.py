@@ -75,6 +75,17 @@ Answer:"""
 
 # Step 9: Ask a question
 if __name__ == "__main__":
-    user_question = "Please summary the pdf"  # Replace with your own question
-    answer = generate_response(user_question)
-    print("Answer:", answer)
+    print("Welcome to the PDF RAG system!  ")
+    print("--------------------------------")
+    i = 0
+    while True:
+        print("Please enter your question: (type 'exit' to quit)")    
+        user_question = input()
+        if user_question == "exit":
+            break
+        i += 1
+        print(f"Question {i}: ", user_question)
+        answer = generate_response(user_question)
+        print(f"Answer {i}: ", answer)
+        print("--------------------------------")
+
