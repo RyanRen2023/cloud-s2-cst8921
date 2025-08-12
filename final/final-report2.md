@@ -1,5 +1,7 @@
 End-to-End Azure Data Platform – Final Report
 
+https://www.kaggle.com/datasets/nitindatta/finance-data?resource=download
+
 Course: CST89xx  • Project Length: 14 weeks  • Group: <Group # / Members>
 
 Title: 
