@@ -40,19 +40,19 @@ The proposed modern data platform architecture integrates batch and streaming da
 
 ### Data Ingestion
 
-Data ingestion supports multiple sources including databases, IoT devices, and external APIs. The system uses Apache Kafka for real-time streaming and Apache NiFi for batch ingestion.
+Data ingestion supports multiple sources including databases, IoT devices, and external APIs. The system uses Azure Event Hubs for real-time streaming and Azure Data Factory for batch ingestion.
 
 ### Data Storage
 
-Data is stored in a data lake built on cloud object storage, complemented by a data warehouse for structured analytics. The storage layer supports schema evolution and data versioning.
+Data is stored in a data lake built on Azure Data Lake Storage Gen2, complemented by a data warehouse using Azure Synapse Analytics for structured analytics. The storage layer supports schema evolution and data versioning.
 
 ### Data Processing
 
-Processing is handled through Apache Spark for batch jobs and Apache Flink for streaming analytics. These frameworks enable complex transformations and machine learning workflows.
+Processing is handled through Azure Databricks (Spark) for batch jobs and Azure Stream Analytics for streaming analytics. These frameworks enable complex transformations and machine learning workflows.
 
 ### Analytics and Visualization
 
-The platform supports SQL-based querying via Presto and integrates with BI tools such as Tableau and Power BI for data visualization.
+The platform supports SQL-based querying via Azure Synapse SQL and integrates with BI tools such as Power BI for data visualization.
 
 ### Security and Governance
 
@@ -106,7 +106,7 @@ The modern data platform designed and implemented offers a robust, scalable, and
 
 1. Stonebraker, M., et al. (2018). The Architecture of Modern Data Platforms. *Communications of the ACM*, 61(9), 50-59.
 2. Kreps, J. (2014). Questioning the Lambda Architecture. *O'Reilly Strata Conference*.
-3. AWS Documentation: Building Data Lakes on AWS. (2023). Retrieved from https://aws.amazon.com/data-lakes/
+3. Microsoft Azure Documentation: Building Data Lakes on Azure. (2023). Retrieved from https://learn.microsoft.com/en-us/azure/architecture/data-guide/technology-choices/data-lake
 
 ## Appendices
 
